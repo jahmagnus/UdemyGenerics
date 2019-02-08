@@ -38,6 +38,6 @@ public class Main {
         hawthorne.matchResult(adelaideCrows, 0, 1);
 
         adelaideCrows.matchResult(fremantle, 2, 1);
-        adelaideCrows.matchResult(baseballTeam, 1,1 );
+        adelaideCrows.matchResult(hawthorne, 1,1 );
     }
 }
