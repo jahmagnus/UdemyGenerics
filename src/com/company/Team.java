@@ -37,13 +37,13 @@ public class Team<T extends Player> {
 
         if (ourScore > theirScore){
             won++;
-            message = "Beat ";
+            message = " Beat ";
         } else if (theirScore > ourScore){
-            message = "lost to ";
+            message = " lost to ";
             lost++;
         }
         else {
-            message = "Drew with ";
+            message = " Drew with ";
             tied++;
         }
 
